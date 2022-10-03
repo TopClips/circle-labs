@@ -116,3 +116,36 @@ nav .menu{
   background: white;
   color: black;
 }
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.wrapper {
+    margin: 100px auto;
+    max-width: 1100px;
+
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 20px;
+
+}
+
+.th1 {
+    display: flex;
+    justify-content: center;
+}
+
